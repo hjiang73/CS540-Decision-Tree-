@@ -15,7 +15,7 @@ public class DecTreeNode {
 	Integer parentAttributeValue; // if is the root, set to "-1"
 	boolean terminal;
 	List<DecTreeNode> children;
-
+	
 	DecTreeNode(Integer _label, Integer _attribute, Integer _parentAttributeValue, boolean _terminal) {
 		label = _label;
 		attribute = _attribute;
